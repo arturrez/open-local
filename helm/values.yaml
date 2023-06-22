@@ -4,22 +4,22 @@ driver: local.csi.aliyun.com
 customLabels: {}
 images:
   local:
-    image: ecp_builder/open-local
+    image: ava0arturrez/open-local
     tag: v0.7.1
   registrar:
-    image: ecp_builder/csi-node-driver-registrar
+    image: longhornio/csi-node-driver-registrar
     tag: v2.3.0
   provisioner:
-    image: ecp_builder/csi-provisioner
+    image: longhornio/csi-provisioner
     tag: v2.2.2
   resizer:
-    image: ecp_builder/csi-resizer
+    image: longhornio/csi-resizer
     tag: v1.3.0
   snapshotter:
-    image: ecp_builder/csi-snapshotter
+    image: longhornio/csi-snapshotter
     tag: v4.2.1
   snapshot_controller:
-    image: ecp_builder/snapshot-controller
+    image: longhornio/snapshot-controller
     tag: v4.2.1
 agent:
   name: open-local-agent
