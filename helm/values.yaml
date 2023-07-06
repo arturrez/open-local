@@ -58,4 +58,4 @@ monitor:
   # grafana namespace
   namespace: monitoring
 global:
-  RegistryURL: ack-agility-registry.cn-shanghai.cr.aliyuncs.com
+  RegistryURL: docker.io
