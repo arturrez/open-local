@@ -11,15 +11,15 @@ images:
     tag: v2.3.0
   provisioner:
     image: longhornio/csi-provisioner
-    tag: v2.2.2
+    tag: v3.4.1
   resizer:
-    image: longhornio/csi-resizer
+    image: giantswarm/csi-resizer
     tag: v1.3.0
   snapshotter:
-    image: longhornio/csi-snapshotter
+    image: giantswarm/csi-snapshotter
     tag: v4.2.1
   snapshot_controller:
-    image: longhornio/snapshot-controller
+    image: giantswarm/snapshot-controller
     tag: v4.2.1
 agent:
   name: open-local-agent
