@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  open-local:
+  - apiVersion: v1
+    appVersion: v0.7.1
+    created: "2023-07-06T17:46:19.387916-07:00"
+    description: cloud-native local storage management system
+    digest: e29f6f7521993e8702ca6a214d9801d22087cf89f6ccb0a44fa5c69491b6f5c4
+    name: open-local
+    urls:
+    - https://arturrez.github.io/open-local/open-local-v0.7.1.tgz
+    version: v0.7.1
+generated: "2023-07-06T17:46:19.387378-07:00"

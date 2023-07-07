@@ -32,16 +32,12 @@ spec:
       storageClassName: open-local-lvm
       resources:
         requests:
-          storage: 5Gi
+          storage: 1Gi
   template:
     metadata:
       labels:
         app: nginx-lvm
     spec:
-      tolerations:
-        - key: node-role.kubernetes.io/control-plane
-          operator: Exists
-          effect: NoSchedule
       containers:
       - name: nginx
         image: nginx
